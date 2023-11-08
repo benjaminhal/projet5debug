@@ -13,7 +13,7 @@ BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
 # BEGIN Cache-Control Headers
 <IfModule mod_headers.c>
  <FilesMatch "\.(ico|jpe?g|png|gif|swf|css|gz)$">
- Header set Cache-Control "max-age=2592000, public"
+ Header set Cache-Control "max-age= 3 1536 000, public"
  </FilesMatch>
  <FilesMatch "\.(js)$">
  Header set Cache-Control "max-age=2592000, private"
